@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>practica</title>
+</head>
+<br>
+ <body class = "container"> 
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 m-4">
+                <center><b>LA RULETA GANADORA</b></center>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+      
+        
+        <form id="formulario">
+            <div class="row">
+                <div class="col-md-3">
+                    Opción N°1
+                    <input type="num" class="form-control" name="opc1" id="opc1">
+                </div>
+                <div class="col-md-3">
+                    Opción N°2
+                    <input type="num" class="form-control" name="opc2" id="opc2">
+                </div>
+                <div class="col-md-3">
+                    Opción N°3
+                    <input type="num" class="form-control" name="opc3" id="opc3">
+                </div>
+                <div class="col-md-3">
+                    Jugador
+                    <select name="jugador" id="jugador" class="form-control">
+                    <option value="0">--Seleccione el jugador--</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <br>
+        <div class="row" id="result-juego">
+            <div class="col-md-4">
+                Nº Ganador 
+                <input type="text" class="form-control" name="num-win" id="num-win">
+            </div>
+            <div class="col-md-4">
+                Resultado
+                <input type="text" class="form-control" name="result" id="result">
+            </div>
+            <div class="col-md-4">
+                Penitencia o Premio
+                <input type="text" class="form-control" name="pen-pre" id="pen-pre">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 m-3">
+                <center>
+                    <button type="button" id="btn_jugar" class="btn btn-warning">Vamos a Jugar</button>
+                    <button type="button" id="btn_ver_hist" class="btn btn-primary">Ver Historico</button>
+                </center>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    
+        <div class="row" id="row-tabla">
+             <div class="col-md-12">
+                    <table id="tabla" class="table table-hover">
+                        <tr>    
+                            <td colspan="9" style="background-color: brown; color:aliceblue" >
+                            <center>TABLA DE HISTORICO DE JUGADORES</center>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>N°</td>
+                                <td>Jugador</td>
+                                <td>Opción N°1</td>
+                                <td>Opción N°2</td>
+                                <td>Opción N°3</td>
+                                <td>Resultado</td>
+                                <td>Estado</td>
+                                <td>Penitencia o Premio</td>
+                                <td>Opciones</td>
+                            </tr>
+                    </table>
+                </div>
+        </div>
+    
+    <!-- Modal ver detalle salario -->
+ <div class="modal fade" id="ver_detalle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             Penitencia: 
+             <div id="penitencia"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

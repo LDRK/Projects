@@ -1,0 +1,92 @@
+   /* Add some responsive design to make the page adapt to different screen sizes */
+   @media only screen and (max-width: 768px) {
+    /* For tablets and small screens */
+   .row {
+        flex-direction: column;
+    }
+   .col-md-2 {
+        width: 100%;
+    }
+   .col-md-4 {
+        width: 50%;
+    }
+   .col-md-8 {
+        width: 100%;
+    }
+   .img-principal {
+        width: 50%;
+    }
+   .div-pregunta {
+        padding: 20px;
+    }
+   .respuestas {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* For mobile phones */
+   .row {
+        flex-direction: column;
+    }
+   .col-md-2 {
+        width: 100%;
+    }
+   .col-md-4 {
+        width: 100%;
+    }
+   .col-md-8 {
+        width: 100%;
+    }
+   .img-principal {
+        width: 100%;
+    }
+   .div-pregunta {
+        padding: 10px;
+    }
+   .respuestas {
+        padding: 5px;
+    }
+}
+
+
+
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(9,9,121,1) 62%, rgba(2,0,36,1) 100%);
+}
+
+img{
+    width: 150px; 
+    height: 150px;
+}
+
+.img-principal{
+    width: 500px;
+    height: 500px;
+    
+}
+
+.div-pregunta{
+    width: auto;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.respuestas{
+    width: auto;
+    color: rgb(7, 7, 58);
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es clickeable */
+    background-color: #f0f0f0; /* Agrega un fondo para que se vea como un botón */
+    padding: 10px; /* Agrega un padding para que se vea como un botón */
+    border: none; /* Quita el borde del botón */
+
+}
+
+.respuestas:hover {
+    background-color: #ccc; /* Cambia el fondo al pasar el cursor por encima */
+}
+
+
