@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="autenticacion">
+    <header class="header"></header>
+    <div class="singup-container">
+        <div class="form-container-singup">
+            <h2>Registrarse</h2>
+            <form class="formulario" method="post" action="forms/php/infoTablaUsu.php">
+                <input type="text" id="Nombre" placeholder="Nombre" name="Nombre" required>
+                <input type="tex" id="Usuario" placeholder="Usuario" name="Usuario">
+                <input type="tex" id="Correo" placeholder="Correo" name="Correo" required>
+                <input type="password" id="Contraseña" placeholder="Contraseña" name="Contraseña" required>
+                <input type="num" id="Cedula" placeholder="Cedula" name="Cedula" required>
+                <div class="social-singup">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png" alt="Google">
+                    <img src="https://img.freepik.com/vector-gratis/twitter-nuevo-logotipo-2023-x-vector-fondo-blanco_1017-45422.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1722470400&semt=ais_hybrid" alt="Otra">
+                </div>
+                <button type="submit" id="iguardar" name="iguardar">Registar</button>
+                <div class="ir-a-login">
+                    <a href="login.html">¿Ya tines cuenta?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

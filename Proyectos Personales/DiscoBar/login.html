@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body class="autenticacion">
+    <div class="login-container">
+        <div class="form-container-login">
+            <h2>Iniciar Sesión</h2>
+            
+            <form action="forms/php/controlTablaUsu.php" method="post">
+                <input type="text" name="usuario" placeholder="Usuario" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
+                <div class="social-login">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png" alt="Google">
+                    <img src="https://img.freepik.com/vector-gratis/twitter-nuevo-logotipo-2023-x-vector-fondo-blanco_1017-45422.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1722470400&semt=ais_hybrid" alt="Otra">
+                </div>
+                <button type="submit" id="btn-login" name="iIngresar">Ingresar</button>
+                <div class="ir-a-singup">
+                    <a href="singup.html">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

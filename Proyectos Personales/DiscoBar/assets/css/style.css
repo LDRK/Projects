@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* INICIO Estilos de la pagina de Bienvenida*/
+
+/* Inicio Estilos nav */
+
+.navbar-custom {
+    background-color: #0a225e;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 22px;
+    margin: 10px;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+ color: #ccc;
+}
+
+.buttons{
+    margin: 10px;
+}
+
+  .btn-custom {
+    color: #fff;
+    background-color: #3E92CC;
+    border-color: #3E92CC;
+    text-decoration: none;
+  }
+
+  .btn-custom a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+
+  .btn-custom:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+/* Inicio Estilos nav */
+
+/*INICIO ESTILOS sectiom*/
+
+.section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #111111;
+  }
+  .section .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .section .text {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  .section .image {
+    flex: 1;
+    margin-top: 100px;
+  }
+
+ svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+  
+ 
+
+
+/*FIN ESTILOS section*/
+
+/*footer*/
+.footer {
+    background-color: #0A2463;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+   margin: 0;
+   margin-right: 10px;
+}
+
+.footer i{
+    margin-right: 10px;
+}
+
+
+.footer-welcome {
+    background-color: #0A2463;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.footer-welcome p{
+   margin: 0;
+   margin-right: 10px;
+}
+
+.footer-welcome i{
+    margin-right: 10px;
+}
+/*footer*/
+
+
+
+/* FIN Estilos de la pagina de Bienvenida*/
+
+/* INICIO ESTILOS DE LOGIN*/
+.autenticacion {
+    font-family: Arial, sans-serif;
+    background-color: #0a2463; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    margin: 570px;
+    background-color: #3e92cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #3e92cc; 
+    border-radius: 15px;
+}
+
+.form-container-login {
+    background-color: #11468f; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 300px; 
+    height: 500px;
+}
+
+.form-container-login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container-login input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container-login .social-login {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.form-container-login .social-login img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%; 
+    margin-top: 40px;
+}
+
+.form-container-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3e92cc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.form-container-login button:hover {
+    background-color: #0056b3;
+}
+
+.ir-a-singup{
+    padding: 20px;
+    text-align: center;
+
+}
+.ir-a-singup a{
+    text-decoration: none;
+    color: black;
+}
+/* FIN ESTILOS DEL LOGIN */
+
+/* INICIO ESTILOS DE SING UP*/
+
+
+
+.singup-container {
+    margin: 570px;
+    background-color: #3e92cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #3e92cc; 
+    border-radius: 15px;
+}
+
+.form-container-singup {
+    background-color: #11468f; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 300px; 
+    height: 500px;
+}
+
+.form-container-singup h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container-singup input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container-singup .social-singup {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.form-container-singup .social-singup img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.form-container-singup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3e92cc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container-singup button:hover {
+    background-color: #0056b3;
+}
+
+.ir-a-login{
+    padding: 17px;
+    text-align: center;
+
+}
+.ir-a-login a{
+    text-decoration: none;
+    color: black;
+}
+/* FIN ESTILOS DE SING UP*/
+
+/*Inicio de los estilos de la tablaUsu pagina momentania*/
+/* Inicio Estilos nav */
+.navbar-custom {
+    background-color: #0a225e;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 22px;
+    margin: 10px;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+/* Estilo de la tabla */
+.table-container {
+    margin-top: 60px; /* Ajusta según sea necesario para evitar superposición con la navbar */
+}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+.table td[contenteditable="true"] {
+    background-color: #f9f9f9;
+    outline: none;
+}
+.table .btn {
+    margin: 0;
+}
+
+/* Fin de los estilos de la tablaUsu */
+
+/*Inicio de estilos de la pagina main */
+
+.container-fluid{
+    background-color:#000000;
+}
+
+.contenedorImg img{
+
+    border-radius: 5px;
+    overflow: hidden;
+    height: 780px;
+}
+
+.discotecas{
+    background-color: #3E92CC;
+    width: 100%;
+    height: 780px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 10px;
+    background-color: #3E92CC;
+    border-radius: 10px;
+    
+}
+
+
+.discotecas > div {
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.discotecas img{
+    width: 150px;
+    height: 120px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/*Fin de los estilos de la pagina main*/
+
+/*welcome*/
+/* Dispositivos de 768px o menos */
+@media (max-width: 768px) {
+    .navbar-toggler-icon{
+        color: #FFFFFF;
+    }
+    
+    .section .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section .text, 
+    .section .image {
+        margin: 0;
+        max-width: 90%;
+    }
+
+    .section .image img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .buttons{
+
+    }
+}
+
+/* Dispositivos de 576px o menos */
+@media (max-width: 576px) {
+    .section {
+        padding: 20px 0;
+    }
+
+    .section .content {
+        padding: 10px;
+    }
+
+    .section .text {
+        font-size: 16px;
+    }
+}
+
+/*login*/
+
+/* Dispositivos de 768px o menos */
+@media (max-width: 768px) {
+    .login-container {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .form-container-login {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .form-container-login input {
+        margin: 5px 0;
+    }
+
+    .form-container-login .social-login img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-container-login button {
+        margin-top: 20px;
+    }
+}
+
+/* Dispositivos de 576px o menos */
+@media (max-width: 576px) {
+    .form-container-login {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .form-container-login h2 {
+        font-size: 20px;
+    }
+
+    .form-container-login input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .form-container-login button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+/*sing up */
+
+/* Dispositivos de 768px o menos */
+@media (max-width: 768px) {
+    .singup-container {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .form-container-singup {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .form-container-singup input {
+        margin: 5px 0;
+    }
+
+    .form-container-singup .social-singup img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-container-singup button {
+        margin-top: 20px;
+    }
+}
+
+/* Dispositivos de 576px o menos */
+@media (max-width: 576px) {
+    .form-container-singup {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .form-container-singup h2 {
+        font-size: 20px;
+    }
+
+    .form-container-singup input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .form-container-singup button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/*main*/
+/* Dispositivos de 1024px o menos */
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    .content-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-section .text,
+    .content-section .image {
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .content-section .image img {
+        width: 80%;
+        height: auto;
+    }
+    
+}
+
+/* Dispositivos de 768px o menos */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 15px;
+    }
+
+    .content-section .text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content-section .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .discotecas div{
+        margin-left: 20px;
+        
+    }
+}
+
+/* Dispositivos de 576px o menos */
+@media (max-width: 576px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .content-section .text {
+        font-size: 16px;
+    }
+
+    .content-section .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-section {
+        padding: 10px 0;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
