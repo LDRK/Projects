@@ -122,6 +122,14 @@ body {
   font-weight: 400;
 }
 
+ul > li > a {
+  text-decoration: none;
+  color: var(--color-secundario);
+}
+ul > li > a:hover {
+  color: var(--color-terciario);
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 20%;
