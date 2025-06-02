@@ -1,0 +1,112 @@
+:root {
+  --colorPrimary: #00a5b5; /*Fondo principal*/
+  --colorSecondary: #71c5e8; /*Secciones*/
+  --colorTertiary: #e03e52; /*Componentes*/
+  --colorQuaternary: #b30838; /*Botones*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--colorPrimary);
+}
+
+/*Estilos de la navbar de inicio*/
+.card {
+  background-color: var(--colorSecondary);
+  padding: 20px;
+}
+.btn {
+  background-color: var(--colorQuaternary);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--colorTertiary);
+  color: white;
+}
+
+/*Estilos Dashboard*/
+
+/*Cards de los reportes*/
+a {
+  text-decoration: none;
+}
+.card-usuario {
+  background-color: var(--colorTertiary);
+  /*margin-left: 300px;*/
+  padding: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Añade un efecto de sombra ligero por defecto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.card-usuario:hover {
+  /* Mueve la tarjeta un poco hacia adelante */
+  transform: scale(1.05);
+  /* Añade más sombra para dar efecto de elevación */
+  box-shadow: 0 8px 15px var(--colorQuaternary, 0.3);
+  z-index: 10;
+}
+
+.card-matricula {
+  background-color: var(--colorTertiary);
+  /* margin-left: 100px; */
+  padding: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Añade un efecto de sombra ligero por defecto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.card-matricula:hover {
+  /* Mueve la tarjeta un poco hacia adelante */
+  transform: scale(1.05);
+  /* Añade más sombra para dar efecto de elevación */
+  box-shadow: 0 8px 15px var(--colorQuaternary, 0.3);
+  z-index: 10;
+}
+
+.card-materias {
+  background-color: var(--colorTertiary);
+  /* margin-left: 100px; */
+  padding: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Añade un efecto de sombra ligero por defecto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.card-materias:hover {
+  /* Mueve la tarjeta un poco hacia adelante */
+  transform: scale(1.05);
+  /* Añade más sombra para dar efecto de elevación */
+  box-shadow: 0 8px 15px var(--colorQuaternary, 0.3);
+  z-index: 10;
+}
+
+/*Reportes*/
+
+.icon-report {
+  width: 20px;
+  height: auto;
+  fill: black;
+  margin-right: 8px;
+}
+
+.icon-report:hover {
+  background-color: var(--colorQuaternary);
+}
+
+/*Tabla*/
